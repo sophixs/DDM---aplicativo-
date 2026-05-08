@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de Taxa Metabólica"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+
+        <EditText
+            android:id="@+id/Peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#38BDF8"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8"
+            android:layout_marginBottom="17dp"/>
+
+
+        <EditText
+            android:id="@+id/Altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura (cm)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#38BDF8"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8"
+            android:layout_marginBottom="17dp"/>
+
+
+        <EditText
+            android:id="@+id/Idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade"
+            android:inputType="number"
+            android:backgroundTint="#38BDF8"
+            android:textColor="@color/white"
+            android:textColorHint="#94A3B8"
+            android:layout_marginBottom="17dp"/>
+
+
+        <Spinner
+            android:id="@+id/Sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
+
+
+        <Button
+            android:id="@+id/Calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:backgroundTint="#38BDF8"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado aparecerá aqui"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
